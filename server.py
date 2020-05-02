@@ -1,7 +1,7 @@
 from flask import Flask, render_template, send_from_directory, url_for, request, redirect
 import os
 import csv
-os.chdir("/Users/W541/Desktop")
+
 app = Flask(__name__)
 
 
